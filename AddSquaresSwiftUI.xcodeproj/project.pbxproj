@@ -7,18 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C0092A4227A82E0F00ED7730 /* Square.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0092A4127A82E0F00ED7730 /* Square.swift */; };
+		C0092A4427A82E2000ED7730 /* SquareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0092A4327A82E2000ED7730 /* SquareView.swift */; };
+		C0092A4627A8373600ED7730 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0092A4527A8373600ED7730 /* ViewModel.swift */; };
 		C0296A7327A7F59200799209 /* AddSquaresSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0296A7227A7F59200799209 /* AddSquaresSwiftUIApp.swift */; };
 		C0296A7527A7F59200799209 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0296A7427A7F59200799209 /* ContentView.swift */; };
 		C0296A7727A7F59400799209 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0296A7627A7F59400799209 /* Assets.xcassets */; };
 		C0296A7A27A7F59400799209 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0296A7927A7F59400799209 /* Preview Assets.xcassets */; };
+		C0296A8127A7F73400799209 /* StaticButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0296A8027A7F73400799209 /* StaticButtonStyle.swift */; };
+		C0296A8327A7F8FF00799209 /* OnTapModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0296A8227A7F8FF00799209 /* OnTapModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C0092A4127A82E0F00ED7730 /* Square.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Square.swift; sourceTree = "<group>"; };
+		C0092A4327A82E2000ED7730 /* SquareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareView.swift; sourceTree = "<group>"; };
+		C0092A4527A8373600ED7730 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		C0296A6F27A7F59200799209 /* AddSquaresSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddSquaresSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0296A7227A7F59200799209 /* AddSquaresSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSquaresSwiftUIApp.swift; sourceTree = "<group>"; };
 		C0296A7427A7F59200799209 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C0296A7627A7F59400799209 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0296A7927A7F59400799209 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C0296A8027A7F73400799209 /* StaticButtonStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StaticButtonStyle.swift; sourceTree = "<group>"; };
+		C0296A8227A7F8FF00799209 /* OnTapModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnTapModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +63,11 @@
 			children = (
 				C0296A7227A7F59200799209 /* AddSquaresSwiftUIApp.swift */,
 				C0296A7427A7F59200799209 /* ContentView.swift */,
+				C0296A8027A7F73400799209 /* StaticButtonStyle.swift */,
+				C0296A8227A7F8FF00799209 /* OnTapModifier.swift */,
+				C0092A4527A8373600ED7730 /* ViewModel.swift */,
+				C0092A4327A82E2000ED7730 /* SquareView.swift */,
+				C0092A4127A82E0F00ED7730 /* Square.swift */,
 				C0296A7627A7F59400799209 /* Assets.xcassets */,
 				C0296A7827A7F59400799209 /* Preview Content */,
 			);
@@ -137,8 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0092A4227A82E0F00ED7730 /* Square.swift in Sources */,
 				C0296A7527A7F59200799209 /* ContentView.swift in Sources */,
 				C0296A7327A7F59200799209 /* AddSquaresSwiftUIApp.swift in Sources */,
+				C0092A4427A82E2000ED7730 /* SquareView.swift in Sources */,
+				C0296A8127A7F73400799209 /* StaticButtonStyle.swift in Sources */,
+				C0296A8327A7F8FF00799209 /* OnTapModifier.swift in Sources */,
+				C0092A4627A8373600ED7730 /* ViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
